@@ -1,0 +1,88 @@
+body {
+	background-color: rgb(242, 231, 243);
+	color: rgb(30, 30, 30);
+	font-family: Arial;
+}
+
+h1 {
+	color: rgb(80, 45, 130);
+	font-family: Arial black;
+	font-size: 30px;
+}
+
+h2 {
+	color: rgb(80, 45, 130);
+	font-family: Arial black;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(80, 45, 130);
+	font-family: Arial black;
+	font-weight: bold;
+	font-size: 15px;
+
+}
+
+
+div {
+	background: none;
+	border: 0px solid black;
+    
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width:  760px) {
+	.container {
+		width: 600px;
+	}
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
+	border-radius: 30px;
+	border: 1px solid purple;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-purple {
+	background-color: rgb(242, 231, 243);
+	color: rebeccapurple;
+	padding: 15px 20px;
+	border-radius: 30px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+list-inline i {
+	font-size: 50px;
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+
+}
+
+
